@@ -49,10 +49,10 @@ function App() {
       <header>
         <nav>
           <ul>
-            <li><a href="#" data-slide="0">HOME</a></li>
-            <li><a href="#" data-slide="1">PROFILE</a></li>
-            <li><a href="#" data-slide="2">SKILL</a></li>
-            <li><a href="#" data-slide="3">CERTIFICATE</a></li>
+            <li><a href="#" data-slide="0">Home</a></li>
+            <li><a href="#" data-slide="1">About</a></li>
+            <li><a href="#" data-slide="2">Skills</a></li>
+            <li><a href="#" data-slide="3">Projects</a></li>
           </ul>
         </nav>
       </header>
@@ -62,16 +62,16 @@ function App() {
           <section id="home" className="swiper-slide">
             <h1>Welcome to My Portfolio</h1>
           </section>
-          <section id="profile" className="swiper-slide">
-            <h2>Profile</h2>
-            <img src="/tongari.jpg" alt="Portfolio" />
+          <section id="about" className="swiper-slide">
+            <h2>About</h2>
+            <img src="img/tongari.jpg" alt="Portfolio" />
             <p>안녕하세요 프론트 엔드 개발자 정다운 입니다.</p>
           </section>
           <section id="skill" className="swiper-slide">
             <h2>Skills</h2>
             <p>나의 기술 스택</p>
           </section>
-          <section id="certificate" className="swiper-slide">
+          <section id="projects" className="swiper-slide">
             <h2>Projects</h2>
             <p>자격증</p>
           </section>
