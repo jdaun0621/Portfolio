@@ -1,4 +1,3 @@
-/* App.css */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,6 +5,7 @@ body {
   text-align: center;
   height: 100vh;
   overflow: hidden;
+  background-color: #202020;
 }
 
 header {
@@ -35,11 +35,26 @@ nav ul li a {
   text-decoration: none;
   font-size: 18px;
   cursor: pointer;
+  padding-bottom: 4px;
+  transition: border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent; /* 기본은 투명 밑줄 */
+}
+
+/* ✅ 마우스 오버 시 밑줄 표시 */
+nav ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+
+/* ✅ 활성화된 메뉴 항목 밑줄 표시 */
+nav ul li a.active {
+  border-bottom: 2px solid white;
 }
 
 .swiper {
   width: 100%;
   height: 100vh;
+  color: rgb(233, 233, 233);
 }
 
 .swiper-slide {
@@ -50,13 +65,6 @@ nav ul li a {
   min-height: 100vh;
 }
 
-section img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-  width: 300px;
-}
 
 footer {
   background: #333;
@@ -89,7 +97,116 @@ footer {
 }
 
 .swiper-pagination-bullet-active {
-  background: black;
+  background: rgb(211, 211, 211);
   opacity: 1;
   transform: scale(1.2);
 }
+
+#home h1 {
+  font-size: 64px; /* 예: 기본 32px → 크게 */
+  font-weight: bold;
+  margin: 0;
+}
+
+/* 기존에 없는 경우 아래 추가 */
+.swiper-slide h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#home h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+
+
+/* About 섹션 전용 스타일 */
+#about {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+  text-align: left;
+  gap: 20px; /* 👉 이미지와 텍스트 사이 간격 줄임 */
+}
+
+#about h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#about img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  flex-shrink: 0; /* 이미지 크기 고정 */
+}
+
+#about .about-content {
+  max-width: 600px;
+  margin-left: 20px; /* 👉 이미지 바로 오른쪽으로 붙게끔 */
+}
+
+#about p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+/* Skills Section */
+#skill {
+  padding: 40px 20px;
+}
+
+.skills-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* 👉 위로 살짝 올리기 */
+  margin-top: -100px;
+  /* 또는 아래 transform 방식 사용 */
+  /* transform: translateY(-30px); */
+}
+
+
+#skill h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+#skill p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.skill-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.skill-item span {
+  font-size: 14px;
+  color: #ddd;
+}
+
