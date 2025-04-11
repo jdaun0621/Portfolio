@@ -102,7 +102,7 @@ function App() {
         <span>CSS</span>
       </div>
       <div className="skill-item">
-        <img src="img/javascript.png" alt="JavaScript" />
+        <img src="img/js.png" alt="JS" />
         <span>JS</span>
       </div>
       <div className="skill-item">
