@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/daun-port/static/css/main.40a65832.css",
+    "main.js": "/daun-port/static/js/main.c509f9c5.js",
+    "static/js/453.787e2170.chunk.js": "/daun-port/static/js/453.787e2170.chunk.js",
+    "index.html": "/daun-port/index.html",
+    "main.40a65832.css.map": "/daun-port/static/css/main.40a65832.css.map",
+    "main.c509f9c5.js.map": "/daun-port/static/js/main.c509f9c5.js.map",
+    "453.787e2170.chunk.js.map": "/daun-port/static/js/453.787e2170.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40a65832.css",
+    "static/js/main.c509f9c5.js"
+  ]
+}
