@@ -103,7 +103,7 @@ function App() {
       </div>
       <div className="skill-item">
         <img src="img/javascript.png" alt="JavaScript" />
-        <span>JavaScript</span>
+        <span>JS</span>
       </div>
       <div className="skill-item">
         <img src="img/react.png" alt="React" />
