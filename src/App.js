@@ -78,7 +78,7 @@ function App() {
       <div className="swiper">
         <div className="swiper-wrapper">
           <section id="home" className="swiper-slide">
-            <h1>Welcome to My Portfolio</h1>
+            <h1>PORTFOLIO</h1>
           </section>
           <section id="about" className="swiper-slide">
   <img src="img/tongari.jpg" alt="Portfolio" />
@@ -110,17 +110,57 @@ function App() {
         <span>React</span>
       </div>
       <div className="skill-item">
+        <img src="img/flutter.png" alt="Figma" />
+        <span>Flutter</span>
+      </div>
+      <div className="skill-item">
         <img src="img/github.png" alt="GitHub" />
         <span>GitHub</span>
+      </div>
+      <div className="skill-item">
+        <img src="img/figma.png" alt="Figma" />
+        <span>Figma</span>
       </div>
     </div>
   </div>
 </section>
 
-          <section id="projects" className="swiper-slide">
-            <h2>Projects</h2>
-            <p>자격증</p>
-          </section>
+<section id="projects" className="swiper-slide">
+  <div className="projects-content">
+    <h2>Projects</h2>
+    <div className="projects-grid">
+      <div className="project-card">
+        <img src="img/project1.jpg" alt="프로젝트 1" />
+        <div className="card-info">
+          <h3>[APP] MILSPOON</h3>
+          <p>떠먹여주는 국방지식 밀스푼 앱 입니다.</p>
+        </div>
+      </div>
+      <div className="project-card">
+        <img src="img/project2.jpg" alt="프로젝트 2" />
+        <div className="card-info">
+          <h3>[APP] Weather</h3>
+          <p>날씨 API를 사용하여 현재 서울의 날씨와 온도를 알려주는 앱 입니다.</p>
+        </div>
+      </div>
+      <div className="project-card">
+        <img src="img/project3.jpg" alt="프로젝트 3" />
+        <div className="card-info">
+          <h3>[WEB] Recycle Game</h3>
+          <p>수박게임을 클론하여 변형한 분리수거 게임 웹 프로젝트 입니다.</p>
+        </div>
+      </div>
+      <div className="project-card">
+        <img src="img/project4.jpg" alt="프로젝트 4" />
+        <div className="card-info">
+          <h3>[WEB] To do List</h3>
+          <p>투두리스트 웹 페이지입니다.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
         </div>
         <div className="swiper-pagination"></div>
       </div>
