@@ -91,7 +91,7 @@ function App() {
 <section id="skill" className="swiper-slide">
   <div className="skills-content">
     <h2>Skills</h2>
-    <p>나의 기술 스택</p>
+    <p>기술 스택</p>
     <div className="skills-grid">
       <div className="skill-item">
         <img src="img/html.png" alt="HTML" />
