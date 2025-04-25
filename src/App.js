@@ -31,7 +31,7 @@ function App() {
             footer.style.display = "none";
           }
 
-          // 슬라이드 이동 시 활성화된 메뉴 표시 업데이트
+      
           const links = document.querySelectorAll("nav ul li a");
           links.forEach((link) => {
             const slideIndex = Number(link.getAttribute("data-slide"));
@@ -52,13 +52,12 @@ function App() {
         const index = link.getAttribute("data-slide");
         swiper.slideTo(index);
 
-        // 클릭한 메뉴에 active 클래스 추가
         links.forEach((l) => l.classList.remove("active"));
         link.classList.add("active");
       });
     });
 
-    // 초기 상태: 첫 번째 메뉴 활성화
+
     document.querySelector('nav ul li a[data-slide="0"]').classList.add("active");
   }, []);
 
