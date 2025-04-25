@@ -111,7 +111,7 @@ function App() {
                   <div className="card-info">
                     <h3>[APP] MILSPOON</h3>
                     <p>떠먹여주는 국방지식 밀스푼 앱 입니다.</p>
-                    <a href="https://github.com/yourusername/milspoon" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
+                    <a href="https://github.com/jdaun0621/milspoon" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
                   </div>
                 </div>
 
@@ -120,7 +120,7 @@ function App() {
                   <div className="card-info">
                     <h3>[APP] Weather</h3>
                     <p>날씨 API를 사용하여 현재 서울의 날씨와 온도를 알려주는 앱 입니다.</p>
-                    <a href="https://github.com/yourusername/weather-app" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
+                    <a href="https://github.com/jdaun0621/weather-app" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
                   </div>
                 </div>
 
@@ -129,7 +129,7 @@ function App() {
                   <div className="card-info">
                     <h3>[WEB] Recycle Game</h3>
                     <p>수박게임을 클론하여 변형한 분리수거 게임 웹 프로젝트 입니다.</p>
-                    <a href="https://github.com/yourusername/recycle-game" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
+                    <a href="https://github.com/jdaun0621/recycle-game" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
                   </div>
                 </div>
 
@@ -138,7 +138,7 @@ function App() {
                   <div className="card-info">
                     <h3>[WEB] To do List</h3>
                     <p>투두리스트 웹 페이지입니다.</p>
-                    <a href="https://github.com/yourusername/todo-list" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
+                    <a href="https://github.com/jdaun0621/todo-list" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
                   </div>
                 </div>
               </div>
