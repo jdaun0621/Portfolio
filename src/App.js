@@ -83,6 +83,22 @@ function App() {
             <div className="about-content">
               <h2>About</h2>
               <p>안녕하세요. 프론트엔드 개발자를 꿈꾸는 정다운입니다. 사용자 중심의 웹 서비스를 만들기 위해 꾸준히 성장하고 있습니다.</p>
+
+              <div className="awards">
+                <h3>🏆 수상 경력</h3>
+                <ul>
+                  <li>2024 서울청소년 앱 공모전 장려상</li>
+                </ul>
+              </div>
+
+              <div className="certificates">
+                <h3>📜 자격증</h3>
+                <ul>
+                  <li>정보처리기능사</li>
+                  <li>GTQ 1급</li>
+                  <li>컴퓨터활용능력 2급</li>
+                </ul>
+              </div>
             </div>
           </section>
 
@@ -157,3 +173,4 @@ function App() {
 }
 
 export default App;
+
