@@ -87,16 +87,15 @@ function App() {
               <div className="awards">
                 <h3>🏆 수상 경력</h3>
                 <ul>
-                  <li>2024 서울청소년 앱 공모전 장려상</li>
+                  <li>2023 1학기 교내 해커톤 대상</li>
                 </ul>
               </div>
 
               <div className="certificates">
                 <h3>📜 자격증</h3>
                 <ul>
-                  <li>정보처리기능사</li>
-                  <li>GTQ 1급</li>
-                  <li>컴퓨터활용능력 2급</li>
+                  <li>ITQ 인터넷</li>
+                  <li>ITQ 엑셀</li>
                 </ul>
               </div>
             </div>
