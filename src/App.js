@@ -165,7 +165,7 @@ function App() {
       </div>
 
       <footer style={{ display: "none" }}>
-        <p>&copy; 2025 My Portfolio</p>
+        <p>&copy; 2025 Jung daun Portfolio</p>
       </footer>
     </div>
   );
