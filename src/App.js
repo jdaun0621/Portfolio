@@ -113,7 +113,7 @@ function App() {
                 <div className="skill-item"><img src="img/flutter.png" alt="Flutter" /><span>Flutter</span></div>
                 <div className="skill-item"><img src="img/github.png" alt="GitHub" /><span>GitHub</span></div>
                 <div className="skill-item"><img src="img/figma.png" alt="Figma" /><span>Figma</span></div>
-                <div className="skill-item"><img src="img/Node.js.png" alt="Node.js" /><span>Node.js</span></div>
+                <div className="skill-item"><img src="img/node.png" alt="Node" /><span>Node.js</span></div>
               </div>
             </div>
           </section>
