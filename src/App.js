@@ -113,7 +113,7 @@ function App() {
                 <div className="skill-item"><img src="img/flutter.png" alt="Flutter" /><span>Flutter</span></div>
                 <div className="skill-item"><img src="img/github.png" alt="GitHub" /><span>GitHub</span></div>
                 <div className="skill-item"><img src="img/figma.png" alt="Figma" /><span>Figma</span></div>
-                <div className="skill-item"><img src="img/node.js.png" alt="Node" /><span>Node.js</span></div>
+                <div className="skill-item"><img src="img/node.js.png" alt="Node.js" /><span>Node.js</span></div>
                 <div className="skill-item"><img src="img/notion.png" alt="Notion" /><span>Notion</span></div>
               </div>
             </div>
@@ -128,7 +128,7 @@ function App() {
                   <div className="card-info">
                     <h3>[APP] MILSPOON</h3>
                     <p>떠먹여주는 국방지식 밀스푼 앱 입니다.</p>
-                    <a href="https://github.com/jdaun0621/milspoon" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
+                    <a href="https://github.com/MILSPOON" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
                   </div>
                 </div>
 
