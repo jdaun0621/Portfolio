@@ -88,6 +88,8 @@ function App() {
                 <h3>🏆 수상 경력</h3>
                 <ul>
                   <li>2023 1학기 교내 해커톤 대상</li>
+                  <li>2024 2학기 Beyond Class 우수상</li>
+                  <li>2025 5월 청소년의 달 바른 인성 청소년 표창</li>
                 </ul>
               </div>
 
