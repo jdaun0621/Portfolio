@@ -79,7 +79,7 @@ function App() {
           </section>
 
           <section id="about" className="swiper-slide">
-            <img src="img/tongari.jpg" alt="Portfolio" />
+            <img src="img/me.jpg" alt="Portfolio" />
             <div className="about-content">
               <h2>About</h2>
               <p>안녕하세요. 프론트엔드 개발자를 꿈꾸는 정다운입니다. 사용자 중심의 웹 서비스를 만들기 위해 꾸준히 성장하고 있습니다.</p>
