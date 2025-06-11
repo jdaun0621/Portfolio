@@ -127,7 +127,7 @@ footer {
 #about img {
   width: 300px;
   height: auto;
-  border-radius: 130px;
+  border-radius: 50px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   flex-shrink: 0;
 }
