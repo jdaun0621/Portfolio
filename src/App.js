@@ -125,7 +125,7 @@ function App() {
                   <img src="img/project1.jpg" alt="프로젝트 1" />
                   <div className="card-info">
                     <h3>[APP] MILSPOON</h3>
-                    <p>떠먹여주는 국방지식 밀스푼 앱 입니다.</p>
+                    <p>React Router와 JSX를 기반으로 국방 관련 지식 교육 어플리케이션입니다.</p>
                     <a href="https://github.com/MILSPOON" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
                   </div>
                 </div>
@@ -134,7 +134,7 @@ function App() {
                   <img src="img/project2.jpg" alt="프로젝트 2" />
                   <div className="card-info">
                     <h3>[APP] Weather</h3>
-                    <p>날씨 API를 사용하여 현재 서울의 날씨와 온도를 알려주는 앱 입니다.</p>
+                    <p>OpenWeather API를 통해 서울의 현재 날씨와 온도를 확인할 수 있는 애플리케이션입니다.</p>
                     <a href="https://github.com/jdaun0621/Weather" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
                   </div>
                 </div>
@@ -152,7 +152,7 @@ function App() {
                   <img src="img/project4.jpg" alt="프로젝트 4" />
                   <div className="card-info">
                     <h3>[WEB] To do List</h3>
-                    <p>투두리스트 웹 페이지입니다.</p>
+                    <p>JSX를 기반으로 한 투두리스트 웹 페이지입니다.</p>
                     <a href="https://github.com/jdaun0621/Todo-list" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
                   </div>
                 </div>
@@ -160,7 +160,7 @@ function App() {
                   <img src="img/project5.png" alt="프로젝트 5" />
                   <div className="card-info">
                     <h3>[WEB] Daun Blog</h3>
-                    <p>수박게임을 클론하여 변형한 분리수거 게임 웹 프로젝트 입니다.</p>
+                    <p>Next.js와 MDX를 기반으로 한 블로그 템플릿 웹 페이지입니다.</p>
                     <a href="https://github.com/jdaun0621/suika-recycle-game" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
                   </div>
                 </div>

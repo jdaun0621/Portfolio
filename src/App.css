@@ -251,15 +251,3 @@ footer {
   color: #cccccc;
 }
 
-.github-link {
-  color: #d8f4ff; /* 하늘색 */
-  text-decoration: none; /* 밑줄 제거 */
-  font-weight: bold;
-  display: inline-block;
-  margin-top: 8px;
-  transition: color 0.3s;
-}
-
-.github-link:hover {
-  color: #c5ecff;
-}
