@@ -156,6 +156,14 @@ function App() {
                     <a href="https://github.com/jdaun0621/Todo-list" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
                   </div>
                 </div>
+                <div className="project-card">
+                  <img src="img/project5.png" alt="프로젝트 5" />
+                  <div className="card-info">
+                    <h3>[WEB] Daun Blog</h3>
+                    <p>수박게임을 클론하여 변형한 분리수거 게임 웹 프로젝트 입니다.</p>
+                    <a href="https://github.com/jdaun0621/suika-recycle-game" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
