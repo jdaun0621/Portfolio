@@ -161,7 +161,7 @@ function App() {
                   <div className="card-info">
                     <h3>[WEB] Daun Blog</h3>
                     <p>Next.js와 MDX를 기반으로 한 블로그 템플릿 웹 페이지입니다.</p>
-                    <a href="https://github.com/jdaun0621/suika-recycle-game" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
+                    <a href="https://github.com/jdaun0621/study-daun-blog" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
                   </div>
                 </div>
               </div>
