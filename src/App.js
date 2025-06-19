@@ -156,14 +156,15 @@ function App() {
                     <a href="https://github.com/jdaun0621/Todo-list" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
                   </div>
                 </div>
-                <div className="project-card">
-                  <img src="img/project5.png" alt="프로젝트 5" />
-                  <div className="card-info">
-                    <h3>[WEB] Daun Blog</h3>
-                    <p>Next.js와 MDX를 기반으로 한 블로그 템플릿 웹 페이지입니다.</p>
-                    <a href="https://github.com/jdaun0621/study-daun-blog" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a>
+               <div className="project-card">
+                <img src="img/project5.png" alt="프로젝트 5" />
+                 <div className="card-info">
+                 <h3>[WEB] Daun Blog</h3>
+                 <p>Next.js와 MDX를 기반으로 한 블로그 템플릿 웹 페이지입니다.</p>
+                  <a href="https://github.com/jdaun0621/study-daun-blog" target="_blank" rel="noopener noreferrer">GitHub 바로가기</a><br />
+                          <a href="https://study-daun-blog.vercel.app/" target="_blank" rel="noopener noreferrer">배포 링크</a>
+                     </div>
                   </div>
-                </div>
               </div>
             </div>
           </section>
